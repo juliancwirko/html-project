@@ -1,0 +1,29 @@
+// @import "settings";
+@charset "UTF-8";
+
+@import "settings";
+
+html, body {
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: $gutter;
+    max-width: $container-max-width;
+    // only test
+    @include at-least(1024px) {
+        h1 {
+            color: #b4da55;
+        }
+    }
+}

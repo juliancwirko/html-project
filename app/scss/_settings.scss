@@ -1,0 +1,16 @@
+
+// max document width
+$container-max-width: 1200px;
+$gutter: 15px;
+
+// rwd mixins
+@mixin at-least($device-width) {
+  @media screen and (min-width: $device-width) {
+    @content
+  }
+}
+@mixin until($device-width) {
+  @media screen and (max-width: $device-width - 1) {
+    @content
+  }
+}
