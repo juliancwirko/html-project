@@ -19,8 +19,8 @@ With Node Scss workflow, Normalize.css and jQuery
 You need git, bower, npm
 
 ````
-git clone it
-cd cloned_folder
+git clone git@github.com:juliancwirko/html-project.git
+cd html-project
 npm install
 bower install
 ````
