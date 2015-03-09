@@ -21,6 +21,7 @@ You need git, bower, npm
 ````
 git clone git@github.com:juliancwirko/html-project.git
 cd html-project
+rm -rf .git
 npm install
 bower install
 ````
