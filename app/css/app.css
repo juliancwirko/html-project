@@ -1,7 +1,9 @@
 html, body {
   height: 100%; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -13,5 +15,4 @@ html, body {
   max-width: 1200px; }
   @media screen and (min-width: 1024px) {
     .container h1 {
-      color: #b4da55; }
- }
+      color: #b4da55; } }
